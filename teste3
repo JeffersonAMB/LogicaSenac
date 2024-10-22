@@ -1,0 +1,27 @@
+#dicionarios entre {} "dict"
+
+#dicionario vazio
+dicionario_vazio = {}
+
+#criando dicionario
+dicionario_cheio = {'nome':'carlos','idade':30}
+for dicionario_teste2 in dicionario_cheio:
+    print(dicionario_teste2)
+
+dicionario_teste = {'gato','cachorrro','papagaio','cobra','pássaro'}
+for dicionario in dicionario_teste:
+    print(dicionario)
+
+#acessar elemento no dicionario
+dicionario_teste = {'gato'}
+teste = dicionario_teste
+print(teste)
+
+#substituir elemento 
+dicionario_teste5 = {'gato','cachorrro','papagaio','cobra','pássaro'}
+dicionario_teste5['gato'] = 'pato'
+print(dicionario_teste5)
+
+clientes = ['gato','cachorrro','papagaio','cobra','pássaro']
+clientes['cliente4'] = {'user':'Chiquinha', 'pass':9999}
+print(clientes)
